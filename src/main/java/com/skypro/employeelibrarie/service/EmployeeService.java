@@ -37,7 +37,7 @@ public class EmployeeService {
         Employee result = null;
         int maxSalary = Integer.MAX_VALUE;
         for (Employee employee : getAllEmployees())
-            if (employee.getSalary() > maxSalary) {
+            if (employee.getSalary() >maxSalary) {
                 maxSalary = employee.getSalary();
                 result = employee;
             }
